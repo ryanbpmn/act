@@ -1,0 +1,184 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-adl {
+  background-image: url(sprite.png);
+  background-position: -1.03rem 0px;
+  background-size: 5.07rem 5.07rem;
+}
+.icon-aebny {
+  background-image: url(sprite.png);
+  background-position: 0px -3.05rem;
+  background-size: 5.07rem 5.07rem;
+  width: 101px;
+  height: 101px;
+}
+.icon-ael {
+  background-image: url(sprite.png);
+  background-position: -1.98rem -4.06rem;
+  background-size: 5.07rem 5.07rem;
+  width: 99px;
+  height: 101px;
+}
+.icon-bael {
+  background-image: url(sprite.png);
+  background-size: 5.07rem 5.07rem;
+  background-position: 0px 0px;
+  width: 103px;
+  height: 103px;
+}
+.icon-bd {
+  background-image: url(sprite.png);
+  background-position: -2.04rem 0px;
+  background-size: 5.07rem 5.07rem;
+  width: 101px;
+  height: 101px;
+}
+.icon-bls {
+  background-image: url(sprite.png);
+  background-position: -2.04rem -1.01rem;
+  background-size: 5.07rem 5.07rem;
+  width: 101px;
+  height: 101px;
+}
+.icon-bolan {
+  background-image: url(sprite.png);
+  background-position: 0px -2.04rem;
+  background-size: 5.07rem 5.07rem;
+  width: 101px;
+  height: 101px;
+}
+.icon-dg {
+  background-image: url(sprite.png);
+  background-position: -1.01rem -2.04rem;
+  background-size: 5.07rem 5.07rem;
+  width: 101px;
+  height: 101px;
+}
+.icon-egl {
+  background-image: url(sprite.png);
+  background-position: -2.02rem -2.04rem;
+  background-size: 5.07rem 5.07rem;
+  width: 101px;
+  height: 101px;
+}
+.icon-els {
+  background-image: url(sprite.png);
+  background-position: -3.05rem 0px;
+  background-size: 5.07rem 5.07rem;
+  width: 101px;
+  height: 101px;
+}
+.icon-fg {
+  background-image: url(sprite.png);
+  background-position: -3.05rem -1.01rem;
+  background-size: 5.07rem 5.07rem;
+  width: 101px;
+  height: 101px;
+}
+.icon-jk {
+  background-image: url(sprite.png);
+  background-position: -3.05rem -2.02rem;
+  background-size: 5.07rem 5.07rem;
+  width: 101px;
+  height: 101px;
+}
+.icon-kldy {
+  background-image: url(sprite.png);
+  background-position: -2.97rem -4.06rem;
+  background-size: 5.07rem 5.07rem;
+  width: 99px;
+  height: 101px;
+}
+.icon-lmny {
+  background-image: url(sprite.png);
+  background-position: -1.01rem -3.05rem;
+  background-size: 5.07rem 5.07rem;
+  width: 101px;
+  height: 101px;
+}
+.icon-pty {
+  background-image: url(sprite.png);
+  background-position: -2.02rem -3.05rem;
+  background-size: 5.07rem 5.07rem;
+  width: 101px;
+  height: 101px;
+}
+.icon-rd {
+  background-image: url(sprite.png);
+  background-position: -.99rem -4.06rem;
+  background-size: 5.07rem 5.07rem;
+  width: 99px;
+  height: 101px;
+}
+.icon-rs {
+  background-image: url(sprite.png);
+  background-position: -4.06rem 0px;
+  background-size: 5.07rem 5.07rem;
+  width: 101px;
+  height: 101px;
+}
+.icon-slfk {
+  background-image: url(sprite.png);
+  background-position: -4.06rem -1.01rem;
+  background-size: 5.07rem 5.07rem;
+  width: 101px;
+  height: 101px;
+}
+.icon-teq {
+  background-image: url(sprite.png);
+  background-position: -4.06rem -2.02rem;
+  background-size: 5.07rem 5.07rem;
+  width: 101px;
+  height: 101px;
+}
+.icon-wes {
+  background-image: url(sprite.png);
+  background-position: 0px -4.06rem;
+  background-size: 5.07rem 5.07rem;
+  width: 99px;
+  height: 101px;
+}
+.icon-wkl {
+  background-image: url(sprite.png);
+  background-position: -4.06rem -3.03rem;
+  background-size: 5.07rem 5.07rem;
+  width: 101px;
+  height: 101px;
+}
+.icon-xby {
+  background-image: url(sprite.png);
+  background-position: -3.03rem -3.05rem;
+  background-size: 5.07rem 5.07rem;
+  width: 101px;
+  height: 101px;
+}
+.icon-xyl {
+  background-image: url(sprite.png);
+  background-position: 0px -1.03rem;
+  background-size: 5.07rem 5.07rem;
+  width: 101px;
+  height: 101px;
+}
+.icon-ydl {
+  background-image: url(sprite.png);
+  background-position: -1.01rem -1.03rem;
+  background-size: 5.07rem 5.07rem;
+  width: 101px;
+  height: 101px;
+}

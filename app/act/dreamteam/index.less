@@ -1,0 +1,635 @@
+
+@blue :#18aed5;
+@sharetitle : #8afefc;
+@panelbg :#006b6f;
+
+html,body{
+  margin:0;
+  padding:0;
+  height:100%;
+}
+div {
+  margin:0;
+  padding:0;
+}
+
+.dot {
+  height: 2px;
+  width: 2px;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 0;
+  animation: sploosh 2s infinite cubic-bezier(0.165, 0.84, 0.44, 1);
+  background: transparent;
+}
+.xu {
+  width:.77rem;
+  height:.75rem;
+  -webkit-animation:2s 0.5s  infinite forward;
+  -webkit-animation-name:xuan;
+  -moz-animation:0.5s 0.5s  infinite forward;
+  -moz-animation-name:xuan;
+}
+@keyframes xuan {
+            0% {transform:rotateZ(0deg)}
+            50% {transform:rotateZ(180deg)}
+            100% {transform:rotateZ(360deg)}
+}
+@keyframes sploosh {
+  0% {
+    box-shadow: 0 0 0 0px rgba(66, 166, 223, 0.7);
+    background: rgba(66, 166, 223, 0.7);
+  }
+  100% {
+    box-shadow: 0 0 0 300px rgba(66, 166, 223, 0);
+    background: rgba(66, 166, 223, 0);
+  }
+}
+
+/** µ¯´° **/
+.panel {
+  background-color:@panelbg;
+  width: 80%;
+  float: right;
+  right: 0;
+  height: 2.4rem;
+  color: white;
+  text-align: center;
+  font-size: .24rem;
+  padding: 10px;
+  z-index: 999999;
+  position: absolute;
+  transform: translateY(50%);
+  opacity: .9;
+  a img{
+    width:.28rem;
+    height:.25rem;
+  }
+}
+.show {
+  diplay:blcok;
+}
+.hide {
+  display:none;
+}
+/** Ê×Ò³ **/
+.index {
+  background-image:url('./img/index.jpg');
+  background-size:6.40rem 11.36rem;
+  background-repeat:no-repeat;
+  position:relative;
+  height:100%;
+  width:100%;
+  .pai {
+
+    width: 2.63rem;
+    height: .84rem;
+    margin: 0 auto;
+    top: 7.70rem;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+  }
+  .body {
+    background-image:url('./img/chang.png');
+    background-size:contain;
+    background-repeat:no-repeat;
+    position:relative;
+    top:(135*667)/1136/58.5938rem;
+    bottom:((1136-900)*667)/1136/58.5938rem;
+    left:0;
+    right:0;
+    height:765*667/1136/58.5938rem;
+    width:100%;
+    .fl {
+      float:left;
+    }
+    .clear {
+      clear:both;
+    }
+    .ren {
+      background-image:url("./img/xiaoren.png");
+      background-size:cover;
+      background-repeat:no-repeat;
+      height: (77*667)/1136/58.5938rem;
+      width:(63*375)/640/58.5938rem;
+    }
+    .first {
+      position:relative;
+      margin:0 auto;
+      top:(20*667)/1136/58.5938rem;
+      //height:(80*1334)/1136/58.5938rem;
+    }
+    .second {
+      position:relative;
+      margin:0rem (120/640)*375/58.5938rem;
+      top:(50)*667/1136/58.5938rem;
+      height:(80*667)/1136/58.5938rem;
+      .ren2 {
+        position:relative;
+        left:(25*375)/640/58.5938rem;
+        top:(14*667)/1136/58.5938rem;
+      }
+      .ren3 {
+        position:relative;
+        left:(75*375)/640/58.5938rem;
+        top:(14*667)/1136/58.5938rem;
+      }
+      .ren4 {
+        position:relative;
+        left:(100*375)/640/58.5938rem;
+      }
+    }
+    .three {
+        position:absolute;
+        margin:0rem (120/640)*375/58.5938rem;
+        top:(765-80)*667/1136/2/58.5938rem;
+        height:(80*667)/1136/58.5938rem;
+        .eleft {
+          position:relative;
+          left:(25*375)/640/58.5938rem;
+        }
+        .eleft2 {
+           position:relative;
+           left:(75*375)/640/58.5938rem;
+         }
+         .eleft3 {
+           position:relative;
+           left:(100*375)/640/58.5938rem;
+         }
+    }
+    .four {
+      position:absolute;
+      margin:0rem (120/640)*375/58.5938rem;
+      top:(765-152)*667/1136/58.5938rem;
+      height:(80*667)/1136/58.5938rem;
+      .fleft {
+        position:relative;
+        left:(75*375)/640/58.5938rem;
+      }
+      .fleft2 {
+        position:relative;
+        left:(125*375)/640/58.5938rem;
+      }
+    }
+  }
+  .footer {
+    position:absolute;
+    top:((765+135)*667)/1136/58.5938rem;
+    margin:0 auto;
+    .opt {
+      color:white;
+      font-size:24px;
+    }
+  }
+}
+.select  {
+  background-image:url('./img/selectbg.png');
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+}
+.back {
+  background-image:url('./img/sbg.png');
+  background-size: 100% 100%;
+  background-repeat:no-repeat;
+}
+.page {
+  position:relative;
+  min-height:580px;
+  width:100%;
+  height: 100%;
+  overflow-y:scroll;
+  .header {
+    position:absolute;
+    top:0;
+    padding-top: .29rem;
+    height: 1.15rem;
+    width:100%;
+    .title {
+      position:relative;
+      //top:.4rem;
+      width:100%;
+      text-align: center;
+      span {
+        font-family :"Microsoft YaHei", "Î¢ÈíÑÅºÚ";
+        font-size:.22rem;
+        color: white;
+      }
+      .line {
+        position: relative;
+        margin:0 auto;
+        width: 1.80rem;
+        background-image:url("./img/line.png");
+        background-size:contain;
+        background-repeat:no-repeat;
+        height:.1rem;
+      }
+      .master {
+        width:5.48rem;;
+        margin:0 auto;
+        .m,.s {
+          font-size:.18rem;
+          color:@sharetitle;
+        }
+        .star,.s div,li {
+          float:left;
+        }
+        .s {
+          margin-left:.4rem;
+        }
+      }
+      @media (max-width:320px){
+        .master {
+          width:5.78rem;
+        }
+      }
+      .star {
+        background-image:url("./img/star.png");
+        background-size: .28rem .25rem;
+        width:.28rem;
+        height:.25rem;
+      }
+    }
+  }
+  .body {
+    background-image:url('./img/chang.png');
+    background-size:100% 100%;
+    min-height:400px;
+    background-repeat:no-repeat;
+    position:absolute;
+    top:1.40rem;
+    bottom:2.40rem;
+    left:0;
+    right:0;
+    .tou {
+      width: .8rem;
+      height: .86rem;
+      z-index: 400;
+      position: relative;
+      margin: 0 auto;
+    }
+    .shen {
+      width:.56rem;
+      height: .56rem;
+      z-index: 300;
+      position: relative;
+      top: -0.06rem;
+    }
+    .mj {
+      width: .77rem;
+      position: relative;
+      margin: 0 auto;
+      top: .15rem;
+    }
+    .hw1 ,.hw2,.hw3,.hw4 {
+      top:.8rem;
+      width:56px;
+      position:absolute;
+      float:left;
+    }
+    .hw5 ,.hw6,.hw7,.hw8 {
+       top:3.4rem;
+       width:56px;
+       position:absolute;
+       float:left;
+     }
+    .hw9,.hw10 {
+      //top:6rem;
+      top:300px;
+      width:56px;
+      position:absolute;
+      float:left;
+    }
+    .hw1,.hw5 {
+      left:0.8rem;
+    }
+    .hw2 {
+      left: 1.9rem;
+      top: 1.5rem;
+    }
+    .hw3 {
+      left: 3.6rem;
+      top: 1.5rem;
+    }
+    .hw4{
+      left: 4.8rem;
+    }
+    .hw5 {
+      left:0.8rem;
+    }
+    .hw6 {
+      left:1.9rem;
+    }
+    .hw7{
+      left:3.6rem;
+    }
+    .hw8{
+      left:4.8rem;
+    }
+    .hw9{
+      left:1.9rem;
+    }
+    .hw10 {
+      left:4.1rem;
+    }
+  }
+  .footer {
+    position:absolute;
+    bottom:0;
+    height:2.40rem;
+    width:100%;
+    .opt {
+      position:relative;
+      width: 3.65rem;
+      margin: 0 auto;
+      top: 0.12rem;
+      .tip {
+        color: white;
+        font-size: .22rem;
+        margin: 0 auto;
+        width: 2.28rem;
+      }
+      .btn {
+        background-image:url("./img/select.png");
+        background-size:100% 100%;
+        width: 3.65rem;
+        height: .77rem;
+        border-radius: 4px;
+        color: #09134a;
+        font-size: .26rem;
+        font-family: "Microsoft YaHei", "Î¢ÈíÑÅºÚ";
+      }
+    }
+
+  }
+}
+
+///**islider **/
+ul.islider-outer{
+  height:100%;
+}
+//.islider-outer li {
+//  height:100%;
+//}
+li.islider-active {
+  height:100%;
+}
+
+
+/** dream.html **/
+
+.dream {
+  position:relative;
+  width:100%;
+  height:100%;
+  .title {
+    position:absolute;
+    text-align:center;
+    width:100%;
+    height:30px;
+  }
+  .member {
+    position:absolute;
+    bottom:130px;
+    top:30px;
+    background-image:url("./img/team.png");
+    width:100%;
+    background-size:contain;
+    background-repeat:no-repeat;
+    .item {
+      position:relative;
+      text-align:center;
+      height:20%;
+      a {
+        display:inline-block;
+        position:relative;
+        width:20%;
+        div {
+          position:absolute;top:0px;bottom:0; left:0;right:0;background:lightgray;
+          border-radius:50px;
+        }
+      }
+      img {
+        display:inline-block;
+        width:60px;
+        height:60px;
+        border-radius:50px;
+        margin: auto 10px;
+      }
+    }
+    .col1 {
+      img {
+        margin:0 auto;
+      }
+    }
+    .col2 img {
+    }
+
+  }
+  .share {
+    width:100%;
+    height:130px;
+    position:absolute;
+    bottom:0;
+    text-align:center;
+    button {
+      border:1px solid #dddddd;
+    }
+  }
+}
+
+/** team.html**/
+@borderColor #61cdd5;
+.team {
+  position:relative;
+  width:100%;
+  height:100%;
+  min-height:667px;
+  background-image:url('./img/qybg.png');
+  background-size: 6.40rem 12.76rem;
+  background-repeat:repeat-y;
+  .header {
+    height:.78rem;
+    text-align:center;
+    color:white;
+    .title {
+      padding-top: .30rem;
+    }
+    .line{
+      position: relative;
+      margin:0 auto;
+      width: 1.80rem;
+      background-image:url("./img/line.png");
+      background-size:contain;
+      background-repeat:no-repeat;
+      height:.1rem;
+    }
+  }
+  .content {
+    position:absolute;
+    top:50px;
+    bottom:0px;
+    width:100%;
+    .row {
+       height:15%;
+       margin:0 auto;
+       width:80%;
+      .col {
+        width:25%;
+        text-align: center;
+        color: white;
+        //border:1px solid #f0f0f0;
+        //background:red;
+        float: left;
+        .team-icon{
+          padding:10px;
+          img {
+            width:1.01rem;
+            height:1.01rem;
+            border-radius:0.5rem;
+            //box-shadow: inset 12px 12px 13px 12px #61cdd5,inset 2px 2px 2px 2px #61cdd5;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/** member.html**/
+.member {
+  background-image:url("./img/qybg.png");
+  background-size: 100% 100%;
+  background-repeat: repeat-y;
+  position:relative;
+  width:100%;
+  height:100%;
+  min-height: 667px;
+  padding-top:.4rem;
+  .hhly-header {
+    position: relative;
+    height: .41rem;
+    line-height: .41rem;
+    padding: 0 10px;
+    .hhly-header-left {
+      position:absolute;
+      top:0;
+      left:10px;
+      a {
+        display: inline-block;
+        min-width: 36px;
+        text-align: center;
+        color: #eee;
+      }
+    }
+    .hhly-header-center {
+      margin: 0 .80rem;
+      font-size: .34rem;
+      color:white;
+      font-weight: 400;
+      text-align: center;
+      display: block;
+      word-wrap: normal;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      img {
+        width:1.51rem;
+        height:.14rem;
+        margin:0 auto;
+      }
+    }
+    .hhly-header-right {
+      position:absolute;
+      right:10px;
+      top:0px;
+      img {
+        width:.79rem;
+        height:.41rem;
+      }
+      span {
+        color:white;
+      }
+    }
+  }
+  .nation {
+    background-image:url("./img/gq.png");
+  }
+  .title {
+      height:44px;
+      line-height:44px;
+  }
+  .content {
+    padding:auto 10px;
+    position:absolute;
+    top: 1.35rem;
+    bottom:0px;
+    left:0;
+    right:0;
+    .line {
+      width:60%;
+      margin:10px auto;
+      border:1px dashed @blue;
+    }
+    .row {
+      width:100%;
+      height: 1.8rem;
+      ::after {
+        clear:both;
+      }
+      .left {
+        width:20%;
+        line-height: 1.524rem;
+        height: 1.524rem;
+        color: white;
+        margin: 0 auto;
+        text-align: center;
+      }
+      .right {
+        width:80%;
+        span {
+          color:white;
+        }
+        .col3 {
+          width:33.33%;
+        }
+        .col2 {
+          width:50%;
+        }
+        .col5 {
+          width:20%;
+        }
+        .item {
+          float: left;
+          //height:1.524rem;
+          text-align: center;
+          .mj {
+            width: .56rem;
+            margin:0 auto;
+            .qiuyuan {
+              width:.81rem;
+              height:1.48rem;
+            }
+            .tou {
+              background-image:url("./img/tou.png");
+              background-size: contain;
+              background-repeat: no-repeat;
+              height: .80rem;
+              width: .56rem;
+            }
+            .shen {
+              background-image:url("./img/man.png");
+              background-size: contain;
+              height: .63rem;
+              width: .56rem;
+            }
+          }
+        }
+      }
+      .left ,.right {
+        float:left;
+      }
+
+    }
+  }
+}

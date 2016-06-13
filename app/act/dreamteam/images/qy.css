@@ -1,0 +1,130 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-q-ael {
+  background-image: url(duifu.png);
+  background-position: 0px 0px;
+  background-size:2.63rem 1.78rem;
+  width: .54rem;
+  height: .60rem;
+  margin: 0 auto;
+}
+.icon-q-bls {
+  background-image: url(duifu.png);
+  background-position: -1.06rem -.60rem;
+  background-size:2.63rem 1.78rem;
+  width: .52rem;
+  height: .58rem;
+  margin: 0 auto;
+}
+.icon-q-bolan {
+  background-image: url(duifu.png);
+  background-position: 0px -1.19rem;
+  background-size:2.63rem 1.78rem;
+  width: .52rem;
+  height: .59rem;
+  margin: 0 auto;
+}
+.icon-q-els {
+  background-image: url(duifu.png);
+  background-position: -2.12rem -.57rem;
+  background-size:2.63rem 1.78rem;
+  width: .50rem;
+  height: .57rem;
+  margin: 0 auto;
+}
+.icon-q-faguo {
+  background-image: url(duifu.png);
+  background-position: -1.03rem -1.19rem;
+  background-size:2.63rem 1.78rem;
+  width: .51rem;
+  height: .58rem;
+  margin: 0 auto;
+}
+.icon-q-kldy {
+  background-image: url(duifu.png);
+  background-position: -1.54rem -1.19rem;
+  background-size:2.63rem 1.78rem;
+  width: .51rem;
+  height: .57rem;
+  margin: 0 auto;
+}
+.icon-q-lmny {
+  background-image: url(duifu.png);
+  background-position: 0px -.60rem;
+  background-size:2.63rem 1.78rem;
+  width: .53rem;
+  height: .59rem;
+  margin: 0 auto;
+}
+.icon-q-pty {
+  background-image: url(duifu.png);
+  background-position: -.53rem -.60rem;
+  background-size:2.63rem 1.78rem;
+  width: .53rem;
+  height: .58rem;
+  margin: 0 auto;
+}
+.icon-q-ruidian {
+  background-image: url(duifu.png);
+  background-position: -.52rem -1.19rem;
+  background-size:2.63rem 1.78rem;
+  width: .51rem;
+  height: .59rem;
+  margin: 0 auto;
+}
+.icon-q-ruishi {
+  background-image: url(duifu.png);
+  background-position: -1.60rem 0px;
+  background-size:2.63rem 1.78rem;
+  width: .52rem;
+  height: .59rem;
+  margin: 0 auto;
+}
+.icon-q-slfk {
+  background-image: url(duifu.png);
+  background-position: -1.07rem 0px;
+  background-size:2.63rem 1.78rem;
+  width: .53rem;
+  height: .60rem;
+  margin: 0 auto;
+}
+.icon-q-xby {
+  background-image: url(duifu.png);
+  background-position: -1.60rem -.59rem;
+  background-size:2.63rem 1.78rem;
+  width: .52rem;
+  height: .59rem;
+  margin: 0 auto;
+}
+.icon-q-ydl {
+  background-image: url(duifu.png);
+  background-position: -.54rem 0px;
+  background-size:2.63rem 1.78rem;
+  width: .53rem;
+  height: .60rem;
+  margin: 0 auto;
+}
+.icon-q-ygl {
+  background-image: url(duifu.png);
+  background-position: -2.12rem 0px;
+  background-size:2.63rem 1.78rem;
+  width: .51rem;
+  height: .57rem;
+  margin: 0 auto;
+}

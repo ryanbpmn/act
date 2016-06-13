@@ -1,0 +1,186 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-qadl {
+  background-image: url(guoqi.png);
+  background-position: -.81rem -1.45rem;
+  background-size: 3.25rem 2.85rem;
+  width: .81rem;
+  height: .47rem;
+}
+.icon-qaebny {
+  background-image: url(guoqi.png);
+  background-position: 0rem -2.39rem;
+  background-size: 3.25rem 2.85rem;
+  width: .78rem;
+  height: .46rem;
+}
+.icon-qael {
+  background-image: url(guoqi.png);
+  background-position: 0rem -1.45rem;
+  background-size: 3.25rem 2.85rem;
+  width: .81rem;
+  height: .47rem;
+}
+.icon-qbael {
+  background-image: url(guoqi.png);
+  background-position: 0rem -.49rem;
+  background-size: 3.25rem 2.85rem;
+  width: .81rem;
+  height: .48rem;
+}
+.icon-qbd {
+  background-image: url(guoqi.png);
+  background-position: -1.63rem -.96rem;
+  background-size: 3.25rem 2.85rem;
+  width: .81rem;
+  height: .47rem;
+}
+.icon-qbls {
+  background-image: url(guoqi.png);
+  background-position: 0px 0px;
+  background-size: 3.25rem 2.85rem;
+  width: .82rem;
+  height: .49rem;
+}
+.icon-qbolan {
+  background-image: url(guoqi.png);
+  background-position: -.81rem -.49rem;
+  background-size: 3.25rem 2.85rem;
+  width: .81rem;
+  height: .48rem;
+}
+.icon-qdg {
+  background-image: url(guoqi.png);
+  background-position: -2.44rem -1.88rem;
+  background-size: 3.25rem 2.85rem;
+  width: .79rem;
+  height: .47rem;
+}
+.icon-qels {
+  background-image: url(guoqi.png);
+  background-position: 0px -0.97rem;
+  background-size: 3.25rem 2.85rem;
+  width: .81rem;
+  height: .48rem;
+}
+.icon-qfg {
+  background-image: url(guoqi.png);
+  background-position: -.81rem -.97rem;
+  background-size: 3.25rem 2.85rem;
+  width: .81rem;
+  height: .48rem;
+}
+.icon-qjk {
+  background-image: url(guoqi.png);
+  background-position: -1.63rem 0rem;
+  background-size: 3.25rem 2.85rem;
+  width: .81rem;
+  height: .48rem;
+}
+.icon-qkldy {
+  background-image: url(guoqi.png);
+  background-position: -2.44rem -1.41rem;
+  background-size: 3.25rem 2.85rem;
+  width: .81rem;
+  height: .48rem;
+}
+.icon-qlmny {
+  background-image: url(guoqi.png);
+  background-position: -2.44rem -.47rem;
+  background-size: 3.25rem 2.85rem;
+  width: .81rem;
+  height: .47rem;
+}
+.icon-qpty {
+  background-image: url(guoqi.png);
+  background-position: -.81rem -1.92rem;
+  background-size: 3.25rem 2.85rem;
+  width: .81rem;
+  height: .47rem;
+}
+.icon-qrd {
+  background-image: url(guoqi.png);
+  background-position: -1.63rem -.48rem;
+  background-size: 3.25rem 2.85rem;
+  width: .81rem;
+  height: .48rem;
+}
+.icon-qrs {
+  background-image: url(guoqi.png);
+  background-position: -2.44rem 0rem;
+  background-size: 3.25rem 2.85rem;
+  width: .81rem;
+  height: .47rem;
+}
+.icon-qslfk {
+  background-image: url(guoqi.png);
+  background-position: 0rem -1.92rem;
+  background-size: 3.25rem 2.85rem;
+  width: .81rem;
+  height: .47rem;
+}
+.icon-qteq {
+  background-image: url(guoqi.png);
+  background-position: -2.44rem -.94rem;
+  background-size: 3.25rem 2.85rem;
+  width: .79rem;
+  height: .47rem;
+}
+.icon-qwes {
+  background-image: url(guoqi.png);
+  background-position: -.78rem -2.39rem;
+  background-size: 3.25rem 2.85rem;
+  width: .78rem;
+  height: .46rem;
+}
+.icon-qwkl {
+  background-image: url(guoqi.png);
+  background-position: -1.56rem -2.39rem;
+  background-size: 3.25rem 2.85rem;
+  width: .78rem;
+  height: .46rem;
+}
+.icon-qxby {
+  background-image: url(guoqi.png);
+  background-position: -1.62rem -1.45rem;
+  background-size: 3.25rem 2.85rem;
+  width: .81rem;
+  height: .47rem;
+}
+.icon-qxyl {
+  background-image: url(guoqi.png);
+  background-position: -2.34rem -2.39rem;
+  background-size: 3.25rem 2.85rem;
+  width: .81rem;
+  height: .46rem;
+}
+.icon-qydl {
+  background-image: url(guoqi.png);
+  background-position: -1.62rem -1.92rem;
+  background-size: 3.25rem 2.85rem;
+  width: .81rem;
+  height: .47rem;
+}
+.icon-qygl {
+  background-image: url(guoqi.png);
+  background-position: -.82rem 0rem;
+  background-size: 3.25rem 2.85rem;
+  width: .81rem;
+  height: .48rem;
+}
